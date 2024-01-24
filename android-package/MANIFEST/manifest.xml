@@ -1,0 +1,12 @@
+<MissionPackageManifest version="2">
+  <Configuration>
+    <Parameter name="uid" value="$UID$"/>
+    <Parameter name="name" value="atak.zip"/>
+    <Parameter name="onReceiveDelete" value="true"/>
+  </Configuration>
+  <Contents>
+    <Content ignore="false" zipEntry="certs/config.pref"/>
+    <Content ignore="false" zipEntry="certs/caCert.p12"/>
+    <Content ignore="false" zipEntry="certs/clientCert.p12"/>
+  </Contents>
+</MissionPackageManifest>
